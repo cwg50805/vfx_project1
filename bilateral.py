@@ -12,6 +12,7 @@ cv2.imwrite( 'bilateral_cv.jpg', B)
 '''
 
 def filter_bilateral( img_in, sigma_s, sigma_v, reg_constant=1e-8 ):
+    print("Count!")
     """Simple bilateral filtering of an input image
 
     Performs standard bilateral filtering of an input image. If padding is desired,
